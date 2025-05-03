@@ -24,7 +24,11 @@ export class CreateUserComponent {
   }
 
   onSubmit() {
+    if (this.userForm.valid) {
 
+    } else {
+      
+    }
   }
 }
 
